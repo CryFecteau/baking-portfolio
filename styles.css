@@ -278,3 +278,63 @@ header{
     background-color: var(--main-font-color);
     cursor: pointer;
 }
+/* wedding-styles */
+.row{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.image-group{
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+    max-width: 50%;
+    padding: 0 4px;
+}
+.image-group img{
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .image-group {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .image-group {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+.weddings .about-description{
+    padding-top: 3rem;
+    margin-bottom: 0;
+}
+.weddings{
+    background-color: var(--main-background-color);
+}
+
+/* image-break-styles */
+.tarts{
+    background: url('images/tarts.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 40vh;
+}
+
+/* recipes-styles */
+.recipes{
+    background: url('images/backdrop.jpg') center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.between{
+    min-height: 65vh;
+    display: flex;
+    align-items: center;
+}
