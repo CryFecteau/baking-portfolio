@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Montserrat|Pacifico&display=swap');
+
+::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-font: 'Pacifico', cursive;
+    --secondary-font: 'Courgette', cursive;
+    --body-font: 'Montserrat', sans-serif;
+}
