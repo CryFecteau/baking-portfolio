@@ -1,3 +1,9 @@
+// loader
+window.addEventListener('load', function () {
+    const loader = document.querySelector('.loader');
+    loader.className += ' hidden';
+});
+
 //navbar
 const selectElement = function (element) {
     return document.querySelector(element);
