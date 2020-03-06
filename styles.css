@@ -341,6 +341,12 @@ header{
 .bread{
     background-color: var(--main-background-color);
 }
+.bread-group-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1.5rem;
+}
+
 /* recipes-styles */
 .recipes{
     background: url('images/backdrop.jpg') center no-repeat;
@@ -351,4 +357,64 @@ header{
     min-height: 65vh;
     display: flex;
     align-items: center;
+}
+
+/* contact/footer-styles */
+footer{
+    padding: 7.9rem 0;
+    background-color: var(--secondary-dark-color);
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.back-to-top{
+    width: 7rem;
+    height: 7rem;
+    background-color: var(--secondary-dark-color);
+    position: absolute;
+    top: -3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+.back-to-top i{
+    display: block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.footer-content{
+    /* overflow: hidden; */
+}
+.footer-content h4{
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 3rem;
+}
+.footer-content-about{
+    margin-bottom: 5.4rem;
+}
+.footer-content-about p{
+    line-height: 2;
+}
+.social-icons{
+    list-style: none;
+    margin-bottom: 5.4rem;
+    display: flex;
+    justify-content: center;
+}
+.social-icons i{
+    font-size: 2rem;
+    color: black;
+}
+.social-icons a{
+    font-size: 1.5rem;
+    padding-right: 2rem;
+    color: white;
+    transition: color .5s;
+}
+.social-icons a:hover, .social-icons a:hover{
+    color:var(--secondary-font-color);
+    cursor: pointer;
 }
