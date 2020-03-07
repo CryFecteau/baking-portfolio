@@ -282,7 +282,7 @@ header{
     line-height: .6;
     opacity: 0;
     animation: fadeUp .5s forwards;
-    animation-delay: 3s;
+    animation-delay: .5s;
 }
 .first-letter{
     text-transform: uppercase;
@@ -306,7 +306,7 @@ header{
     position: relative;
     opacity: 0;
     animation: grow 2s forwards;
-    animation-delay: 3.4s;
+    animation-delay: .9s;
 }
 .separator{
     display: flex;
@@ -321,7 +321,7 @@ header{
     border: .6rem solid transparent;
     opacity: 0;
     animation: grow .5s forwards;
-    animation-delay: 2.2s;
+    animation-delay: 1.2s;
 }
 .line-right::before{
     border-right-color: #fff;
@@ -339,7 +339,7 @@ header{
     margin: 0 1.6rem;
     opacity: 0;
     animation: spin .5s forwards;
-    animation-delay: 3.5s;
+    animation-delay: .7s;
 }
 .headline-description h5{
     color: white;
@@ -370,7 +370,7 @@ header{
 .single-animation{
     opacity: 0;
     animation: fadeDown .5s forwards;
-    animation-delay: 3.5s;
+    animation-delay: 1.2s;
 }
 /* about-styles  */
 .global-headline{
@@ -430,7 +430,7 @@ header{
 
 /* image-break-styles */
 .tarts{
-    background: url('images/tarts.jpg') center no-repeat;
+    background: url('images/cakes.jpg') center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     min-height: 40vh;
@@ -524,7 +524,7 @@ header{
     width: 100%;
 }
 .custom{
-    background: url('images/cakepops.jpg') center no-repeat;
+    background: url('images/backdrop.jpg') center no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
@@ -551,8 +551,8 @@ header{
 }
 
 /* recipes-styles */
-.recipes{
-    background: url('images/backdrop.jpg') center no-repeat;
+.showPiece{
+    background: url('images/chocolate.jpg') center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -561,10 +561,7 @@ header{
     display: flex;
     align-items: center;
 }
-.recipe-group{
-    text-align: center;
-    margin: 5rem auto;
-}
+
 
 /* contact/footer-styles */
 footer{
@@ -696,11 +693,11 @@ footer{
     .modal-content{
         margin: 5% auto;
     }
-    .custom{
+    /* .custom{
         background: url('./images/cakes.jpg') center no-repeat;
         background-attachment: fixed;
         background-color: var(--main-background-color);
-    }
+    } */
     .padding-right{
         padding-right: 7rem;
     } 

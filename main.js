@@ -22,27 +22,27 @@ nav.onclick = function () {
 // modals
 let customModal = document.getElementById('customsModal');
 let customBtn = document.getElementById('customBtn');
-let recipeModal = document.getElementById('recipesModal');
-let recipeBtn = document.getElementById('recipesBtn');
+let showPieceModal = document.getElementById('showPieceModal');
+let showPieceBtn = document.getElementById('showPieceBtn');
 let spanCustom = document.getElementById('closeCustoms');
-let spanRecipe = document.getElementById('closeRecipes')
+let spanShowPiece = document.getElementById('closeShowPiece')
 
 customBtn.onclick = function () {
     customModal.style.display = 'block';
 }
-recipeBtn.onclick = function () {
-    recipeModal.style.display = 'block';
+showPieceBtn.onclick = function () {
+    showPieceModal.style.display = 'block';
 }
 spanCustom.onclick = function () {
     customModal.style.display = 'none';
 }
-spanRecipe.onclick = function () {
-    recipeModal.style.display = 'none';
+spanShowPiece.onclick = function () {
+    showPieceModal.style.display = 'none';
 }
 window.onclick = function (event) {
-    if (event.target == customModal || event.target == recipeModal) {
+    if (event.target == customModal || event.target == showPieceModal) {
         customModal.style.display = 'none';
-        recipeModal.style.display = 'none';
+        showPieceModal.style.display = 'none';
     }
 }
 
